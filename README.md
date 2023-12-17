@@ -1,5 +1,5 @@
 # OichoKabu
-### About Oicho-Kabu
+## About Oicho-Kabu
 Oicho-Kabu is a card game in which a group of players compete against the dealer to assemble a hand of cards whose value is as close as possible to 9. If the total of the hand exceeds 9, the first digit is excluded.
 
 The dealer wins if there is a tie between a player and the dealer.
@@ -22,9 +22,27 @@ Kuppin (9-1) - Valid for the dealer only. A two-card hand consisting of a 9 and 
 
 Shippin (4-1) - Valid for players only. A two-card hand consisting of a 4 and a 1 in any order.
 
-### The Third Card
+#### The Third Card
 If a hand’s total value is 3 or lower, then a third card must be taken.
 If a hand’s total value is 7 or higher, then a third card cannot be taken.
 
-### About this project
+## About this project
 Getting familiar with Kotlin.
+
+## Installation
+
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/rafald1/OichoKabu.git
+    ```
+2. **Run the Project:**
+
+   Use an IDE like IntelliJ IDEA to open and run the project.
+
+    * Open IntelliJ IDEA.
+    * Navigate to "File" -> "New" -> "Project from Existing Sources..."
+    * Select the root directory of your cloned OichoKabu project and click "Open."
+    * Choose "Kotlin" in the "Add as a Module" dialog.
+    * Follow the prompts to configure the SDK.
+    * Once the project is opened, navigate to src/main/kotlin/Main.kt.
+    * Right-click on Main.kt and choose "Run MainKt" to execute the project.
